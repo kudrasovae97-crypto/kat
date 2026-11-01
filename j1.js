@@ -90,7 +90,7 @@ for (let g = 0; g < groupCount; g++) {
 }
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://raw.githubusercontent.com/kudrasovae97-crypto/kat/refs/heads/main/roglandclearnight1k.hdr",
+	"https://raw.githubusercontent.com/kudrasovae97-crypto/kat/refs/heads/main/kiara_1_dawn_1k.hdr",
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
